@@ -25,7 +25,12 @@
             "styles": [
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": [
+              "./node_modules/p5/lib/p5.min.js",
+              "./node_modules/p5/lib/addons/p5.sound.js",
+              "./node_modules/p5/lib/addons/p5.dom.js",
+              "./src/assets/js/yfcodeP5.js"
+            ]
           },
           "configurations": {
             "production": {
@@ -74,7 +79,12 @@
             "styles": [
               "src/styles.css"
             ],
-            "scripts": [],
+            "scripts": [
+              "./node_modules/p5/lib/p5.min.js",
+              "./node_modules/p5/lib/addons/p5.sound.js",
+              "./node_modules/p5/lib/addons/p5.dom.js",
+              "./assets/js/yfcodeP5.js"
+            ],
             "assets": [
               "src/favicon.ico",
               "src/assets"
