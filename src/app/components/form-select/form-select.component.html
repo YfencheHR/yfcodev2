@@ -1,0 +1,11 @@
+<input type="text"
+       class="form-control"
+       [(ngModel)]="model"
+       [ngbTypeahead]="search"
+       [resultFormatter]="formatMatches"
+       [inputFormatter]="formatMatches"
+       (focus)="onFocusTypeahead($event.target)"
+       (click)="onClickTypeahead($event.target)"
+       (ngModelChange)="changeTypeahead($event)"
+       (focusout)="focusOutTypeahead($event.target)"
+/>

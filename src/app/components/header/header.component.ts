@@ -7,9 +7,26 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HeaderComponent implements OnInit {
 
+  public items: any = [
+    {
+      name: 'AA',
+      id: 1
+    },
+    {
+      name: 'BB',
+      id: 2
+    },
+  ];
+  public item: any =  {
+    name: 'AA',
+    id: 1
+  };
   constructor() { }
 
   ngOnInit() {
+  }
+  changeSelect(event) {
+    console.log(event);
   }
 
 }

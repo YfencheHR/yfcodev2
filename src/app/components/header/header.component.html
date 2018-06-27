@@ -1,3 +1,7 @@
 <mat-toolbar>
-    <span>YfCode - Web de Misceláneos Angular 6, P5.js, material. <i>versión 2.02</i></span>
+  <span>YfCode - Web de Misceláneos Angular 6, P5.js, material. <i>versión 2.03</i></span>
+  <span>
+    <app-form-select [index]="0" [listData]="items" [item]="item" (eventUpdate)="changeSelect($event)">
+    </app-form-select>
+  </span>
 </mat-toolbar>
